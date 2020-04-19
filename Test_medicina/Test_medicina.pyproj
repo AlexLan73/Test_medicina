@@ -23,10 +23,29 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ConvertDan.py" />
+    <Compile Include="GenAlgoritm\CFitGen.py" />
+    <Compile Include="GenAlgoritm\DanConst.py" />
+    <Compile Include="GenAlgoritm\GenDanDense.py" />
+    <Compile Include="GenAlgoritm\GenDense.py" />
+    <Compile Include="GenAlgoritm\ModelBasa.py" />
+    <Compile Include="GenAlgoritm\WriteRead.py" />
+    <Compile Include="GenAlgoritm\СonvolutionNetwork.py" />
     <Compile Include="main.py" />
     <Compile Include="main_Genetica.py" />
     <Compile Include="Models.py" />
     <Compile Include="ReadWriteFiles.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GenAlgoritm\" />
+    <Folder Include="GenAlgoritm\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GenAlgoritm\__pycache__\CFitGen.cpython-37.pyc" />
+    <Content Include="GenAlgoritm\__pycache__\DanConst.cpython-37.pyc" />
+    <Content Include="GenAlgoritm\__pycache__\GenDanDense.cpython-37.pyc" />
+    <Content Include="GenAlgoritm\__pycache__\GenDense.cpython-37.pyc" />
+    <Content Include="GenAlgoritm\__pycache__\ModelBasa.cpython-37.pyc" />
+    <Content Include="GenAlgoritm\__pycache__\WriteRead.cpython-37.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
