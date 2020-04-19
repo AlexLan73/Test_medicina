@@ -1,0 +1,18 @@
+{
+  "0": {
+    "0": [ "Dense(6760,  Activation= softsign)", "Dropout( 0.12 )" ],
+    "1": [ "Dense(700,  Activation= softsign)" ],
+    "val_accuracy": "0.978723"
+  },
+  "4": {
+    "0": [ "Dense(3460,  Activation= softsign)" ],
+    "val_accuracy": "0.978723"
+  },
+  "1": 
+  {
+    "0": [ "Dense(910,  Activation= softsign)" ],
+    "1": [ "Dense(2040,  Activation= sigmoid)", "Dropout( 0.42 )" ],
+    "2": [ "Dense(9880,  Activation= softsign)", "Dropout( 0.38 )" ],
+    "3": [ "Dense(4250,  Activation= sigmoid)", "Dropout( 0.4 )" ],
+    "val_accuracy": "0.977604"
+  }}

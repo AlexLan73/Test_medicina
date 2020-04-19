@@ -1,0 +1,40 @@
+{
+  "17": {
+    "0": [ "Dense(810,  Activation= tanh)" ],
+    "1": [ "Dense(1970,  Activation= tanh)", "Dropout( 0.33 )" ],
+    "2": [ "Dense(1170,  Activation= softsign)" ],
+    "3": [ "Dense(1980,  Activation= softsign)", "Dropout( 0.17 )" ],
+    "4": [ "Dense(830,  Activation= sigmoid)", "Dropout( 0.25 )" ],
+    "5": [ "Dense(1670,  Activation= softsign)", "Dropout( 0.37 )" ],
+    "6": [ "Dense(810,  Activation= relu)" ],
+    "7": [ "Dense(200,  Activation= hard_sigmoid)" ],
+    "8": [ "Dense(1460,  Activation= tanh)" ],
+    "9": [ "Dense(610,  Activation= hard_sigmoid)", "Dropout( 0.08 )" ],
+    "10": [ "Dense(960,  Activation= softmax)", "Dropout( 0.28 )" ],
+    "11": [ "Dense(180,  Activation= softsign)", "Dropout( 0.33 )" ],
+    "12": [ "Dense(220,  Activation= softplus)" ],
+    "13": [ "Dense(120,  Activation= softplus)" ],
+    "14": [ "Dense(1270,  Activation= softsign)", "Dropout( 0.14 )" ],
+    "15": [ "Dense(480,  Activation= relu)", "Dropout( 0.36 )" ],
+    "val_accuracy": "0.983203"
+  },
+  "18": {
+    "0": [ "Dense(1960,  Activation= sigmoid)" ],
+    "1": [ "Dense(1740,  Activation= softsign)" ],
+    "val_accuracy": "0.982083"
+  },
+  "9": 
+  {
+    "0": [ "Dense(1290,  Activation= softsign)", "Dropout( 0.36 )" ],
+    "1": [ "Dense(1990,  Activation= tanh)" ],
+    "2": [ "Dense(430,  Activation= softplus)" ],
+    "3": [ "Dense(430,  Activation= softplus)" ],
+    "4": [ "Dense(1570,  Activation= softsign)" ],
+    "5": [ "Dense(760,  Activation= tanh)", "Dropout( 0.4 )" ],
+    "6": [ "Dense(1700,  Activation= softplus)" ],
+    "7": [ "Dense(1250,  Activation= softsign)", "Dropout( 0.13 )" ],
+    "8": [ "Dense(1530,  Activation= softplus)" ],
+    "9": [ "Dense(730,  Activation= tanh)", "Dropout( 0.2 )" ],
+    "10": [ "Dense(1800,  Activation= tanh)", "Dropout( 0.08 )" ],
+    "val_accuracy": "0.980963"
+  }}

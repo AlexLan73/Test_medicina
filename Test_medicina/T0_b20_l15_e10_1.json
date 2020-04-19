@@ -1,0 +1,43 @@
+{
+  "4": {
+    "0": [ "Dense(1552.3200000000002,  Activation= sigmoid)" ],
+    "1": [ "Dense(1378.0800000000002,  Activation= softsign)" ],
+    "val_accuracy": "0.982083"
+  },
+  "13": {
+    "0": [ "Dense(630,  Activation= softmax)" ],
+    "1": [ "Dense(940,  Activation= softsign)", "Dropout( 0.36 )" ],
+    "2": [ "Dense(1430,  Activation= hard_sigmoid)" ],
+    "3": [ "Dense(380,  Activation= hard_sigmoid)" ],
+    "4": [ "Dense(190,  Activation= hard_sigmoid)" ],
+    "5": [ "Dense(830,  Activation= softplus)" ],
+    "6": [ "Dense(310,  Activation= hard_sigmoid)" ],
+    "7": [ "Dense(1060,  Activation= hard_sigmoid)" ],
+    "8": [ "Dense(1850,  Activation= softplus)" ],
+    "9": [ "Dense(1100,  Activation= softsign)", "Dropout( 0.11 )" ],
+    "10": [ "Dense(1400,  Activation= sigmoid)", "Dropout( 0.26 )" ],
+    "11": [ "Dense(930,  Activation= sigmoid)", "Dropout( 0.15 )" ],
+    "12": [ "Dense(570,  Activation= softplus)", "Dropout( 0.26 )" ],
+    "13": [ "Dense(1940,  Activation= relu)", "Dropout( 0.43 )" ],
+    "val_accuracy": "0.982083"
+  },
+  "0": 
+  {
+    "0": [ "Dense(810,  Activation= tanh)" ],
+    "1": [ "Dense(1970,  Activation= tanh)", "Dropout( 0.33 )" ],
+    "2": [ "Dense(1170,  Activation= softsign)" ],
+    "3": [ "Dense(1980,  Activation= softsign)", "Dropout( 0.17 )" ],
+    "4": [ "Dense(830,  Activation= sigmoid)", "Dropout( 0.25 )" ],
+    "5": [ "Dense(1670,  Activation= softsign)", "Dropout( 0.37 )" ],
+    "6": [ "Dense(810,  Activation= relu)" ],
+    "7": [ "Dense(200,  Activation= hard_sigmoid)" ],
+    "8": [ "Dense(1460,  Activation= tanh)" ],
+    "9": [ "Dense(610,  Activation= hard_sigmoid)", "Dropout( 0.08 )" ],
+    "10": [ "Dense(960,  Activation= softmax)", "Dropout( 0.28 )" ],
+    "11": [ "Dense(180,  Activation= softsign)", "Dropout( 0.33 )" ],
+    "12": [ "Dense(220,  Activation= softplus)" ],
+    "13": [ "Dense(120,  Activation= softplus)" ],
+    "14": [ "Dense(1270,  Activation= softsign)", "Dropout( 0.14 )" ],
+    "15": [ "Dense(480,  Activation= relu)", "Dropout( 0.36 )" ],
+    "val_accuracy": "0.980963"
+  }}

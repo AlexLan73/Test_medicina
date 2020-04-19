@@ -1,0 +1,25 @@
+{
+  "12": {
+    "0": [ "Dense(1980,  Activation= softsign)" ],
+    "1": [ "Dense(1150,  Activation= hard_sigmoid)" ],
+    "2": [ "Dense(1800,  Activation= tanh)", "Dropout( 0.37 )" ],
+    "3": [ "Dense(830,  Activation= softplus)" ],
+    "4": [ "Dense(180,  Activation= sigmoid)" ],
+    "5": [ "Dense(1520,  Activation= sigmoid)", "Dropout( 0.17 )" ],
+    "val_accuracy": "0.982083"
+  },
+  "0": {
+    "0": [ "Dense(1560,  Activation= tanh)", "Dropout( 0.21 )" ],
+    "1": [ "Dense(690,  Activation= relu)", "Dropout( 0.42 )" ],
+    "2": [ "Dense(630,  Activation= hard_sigmoid)" ],
+    "val_accuracy": "0.979843"
+  },
+  "14": 
+  {
+    "0": [ "Dense(1710,  Activation= softsign)" ],
+    "1": [ "Dense(1030,  Activation= softmax)", "Dropout( 0.45 )" ],
+    "2": [ "Dense(430,  Activation= hard_sigmoid)" ],
+    "3": [ "Dense(320,  Activation= hard_sigmoid)", "Dropout( 0.23 )" ],
+    "4": [ "Dense(1380,  Activation= softplus)", "Dropout( 0.34 )" ],
+    "val_accuracy": "0.979843"
+  }}
